@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>wap-consent-gateway</artifactId>
+    <groupId>com.ibm.wcg</groupId>
+    <version>2.0.0</version>
+  </parent>
+  <groupId>com.ibm.wcg</groupId>
+  <artifactId>wcg-integration</artifactId>
+  <version>2.0.0</version>
+  <packaging>pom</packaging>
+  <name>wcg-integration</name>
+  <modules>
+  	<module>wcg-configuration</module>
+  	<module>wcg-dao</module>
+  	<module>wcg-service</module>
+  	<module>wcg-domain</module>
+  	<module>wcg-utils</module>
+  	<module>wcg-schema-objects</module>
+  </modules>
+</project>
