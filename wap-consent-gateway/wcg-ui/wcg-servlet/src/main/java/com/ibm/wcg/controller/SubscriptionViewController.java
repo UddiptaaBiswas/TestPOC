@@ -17,9 +17,24 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class SubscriptionViewController {
 	
-	@RequestMapping("/consent")
+	//172.30.51.168:10068/wapcg/consent/
+	@RequestMapping("/")
 	public ModelAndView consent(HttpServletRequest request, HttpServletResponse response) {
 		System.out.println ("inside /consent request controller");
+		
+		String message = null;
+		HttpSession session=request.getSession();  
+         
+       
+        
+	return new ModelAndView("wcg");
+	}
+	
+	
+	//172.30.51.168:10068/wapcg/consent/subscribe
+	@RequestMapping("/subscribe")
+	public ModelAndView subscribe(HttpServletRequest request, HttpServletResponse response) {
+		System.out.println ("inside /subscribe request controller");
 		
 		String message = null;
 		HttpSession session=request.getSession();  

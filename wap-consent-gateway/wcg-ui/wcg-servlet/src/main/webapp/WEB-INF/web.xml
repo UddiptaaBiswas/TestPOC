@@ -19,7 +19,7 @@
     
     <servlet-mapping>
 		<servlet-name>ViewRendererServlet</servlet-name>
-		<url-pattern>/wcg/*</url-pattern>
+		<url-pattern>/consent/*</url-pattern>
 	</servlet-mapping>
 	
 </web-app>
